@@ -1,6 +1,6 @@
 import React from "react";
 import { useTransition, useState } from "react";
-import TabButton from "./TabButton";
+import TabButton from "./tabButton";
 import Image from "next/image";
 
 //1d
