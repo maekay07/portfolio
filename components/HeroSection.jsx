@@ -8,8 +8,8 @@ const HeroSection = () => {
 
     return (
         // HTML CSS in return
-        <main className="py-16 mt-16 md:flex md: shirink-0">
-            <div className="grid grid-cols-1 md:grid-cols-12">
+        <main className="py-16 mt-16 mx-3 md:flex md: shirink-0">
+            <div className="grid grid-cols-1 mx-auto md:grid-cols-12">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -46,11 +46,17 @@ const HeroSection = () => {
                                 href="https://drive.google.com/file/d/1ovI6CthuGUOsjSx-l7SG7t8SU5zr94Hx/view?usp=drive_link"
                                 className="px-6 inline-block py-3 rounded-full border border-solid-2 border-pink-500 hover:bg-pink-400"
                                 target="_blank">
-                                    View My Resume
+                                View My Resume
                             </Link>
                         </h1>
                     </div>
                 </motion.div>
+                <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg: mt-0 pt-0 lg: pt-24">
+                    <div className="w-[400px] h-[400px] relative z-0">
+                        <img src="/Hero-Section.png" alt="hero section"
+                            className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
+                    </div>
+                </div>
             </div>
         </main>
     );
