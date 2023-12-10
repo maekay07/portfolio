@@ -49,7 +49,7 @@ const HeroSection = () => {
                             <Link
                                 href="#project"
                                 className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
-                                <span className="text-xl text-white">Projects</span>
+                                Projects
                             </Link>
                             <Link
                                 href="https://drive.google.com/file/d/1ovI6CthuGUOsjSx-l7SG7t8SU5zr94Hx/view?usp=drive_link"
