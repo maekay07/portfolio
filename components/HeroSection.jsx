@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import Link from "next/link"
 import dynamic from "next/dynamic"
+import Image from "next/image";
 
 const HeroSection = () => {
     // JS in here
@@ -19,7 +20,7 @@ const HeroSection = () => {
                     <div className="col-span-1 md:col-span-8 place-self-center justify-self-start">
                         <h1 className="font-extrabold">
                             <span className="text-white text-8xl">
-                                Hello, I'm {" "}
+                                Hello, I&lsquo;m {" "}
                                 <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                                     Maekay
                                 </span>
@@ -61,7 +62,7 @@ const HeroSection = () => {
                 </motion.div>
                 <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-24">
                     <div className="w-[350px] h-[350px] relative z-0">
-                        <img src="/Hero-Section.jpg" alt="hero section"
+                        <Image src="/Hero-Section.jpg" alt="hero section"
                             className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/3 left-1/3" style={{objectFit:"cover", width:"350px", height:"350px"}}/>
                     </div>
                 </div>
