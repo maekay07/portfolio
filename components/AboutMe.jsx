@@ -8,15 +8,15 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className="list-disc pl-2">
-                <li>Bootstrap</li>
-                <li>JavaScript</li>
-                <li>Jquery</li>
+            <ul className="list-disc pl-5">
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Tailwind CSS</li>
-                <li>Python</li>
-                <li>Java</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>PHP</li>
+                <li>Sitefinity CMS</li>
+                <li>DNN CMS</li>
             </ul>
         ),
     },
@@ -24,10 +24,8 @@ const TAB_DATA = [
         title: "Experiences",
         id: "experiences",
         content: (
-            <ul className="list-disc pl-2">
-                <li>ICN 2022</li>
-                <li>Beyond Sight</li>
-                <li>Sight & Sound</li>
+            <ul className="list-disc pl-5">
+                <li>KL Mini Hack</li>
             </ul>
         ),
     },
@@ -35,7 +33,7 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-            <ul className="list-disc pl-2">
+            <ul className="list-disc pl-5">
                 <li>Asia Pacific University</li>
                 <li>Hua Xia Private School</li>
                 <li>SMK Seri Serdang</li>
@@ -56,11 +54,11 @@ const AboutMe = () => {
     //1a
     return (
         <section className="text-white grid" id="aboutMe">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-28 xl-gap-16 items-center">
                 <div>
                     <img src="/AboutMe.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }} />
                 </div>
-                <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+                <div className="mt-8 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
                     <p className="text-base text-justify lg:text-lg">I am currently having my diploma internships, and will continue studying Degree in Software Engineering Year 2 in the end of February 2024. </p>
                     <div className="flex flex-row mt-8">
