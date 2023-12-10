@@ -8,8 +8,8 @@ const HeroSection = () => {
 
     return (
         // HTML CSS in return
-        <main className="py-16 mt-16 mx-3 md:flex md: shirink-0">
-            <div className="grid grid-cols-1 mx-auto md:grid-cols-12">
+        <main className="py-5 mt-0 mx-8 md:flex md: shirink-0">
+            <div className="grid grid-cols-1 md:grid-cols-12">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -23,6 +23,8 @@ const HeroSection = () => {
                                     Maekay
                                 </span>
                             </span>
+                        </h1>
+                        <h2 className="font-bold">
                             <span className="text-7xl">
                                 <Typewriter
                                     options={{
@@ -48,7 +50,7 @@ const HeroSection = () => {
                                 target="_blank">
                                 View My Resume
                             </Link>
-                        </h1>
+                        </h2>
                     </div>
                 </motion.div>
                 <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg: mt-0 pt-0 lg: pt-24">
