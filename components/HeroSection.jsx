@@ -62,8 +62,8 @@ const HeroSection = () => {
                 </motion.div>
                 <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-24">
                     <div className="w-[350px] h-[350px] relative z-0">
-                        <Image src="/Hero-Section.jpg" alt="hero section"
-                            className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/3 left-1/3" style={{objectFit:"cover", width:"350px", height:"350px"}}/>
+                        <Image src="/Hero-Section.jpg" alt="hero section" width="350" height="350"
+                            className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/3 left-1/3" style={{objectFit:"cover"}}/>
                     </div>
                 </div>
             </div>
